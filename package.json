@@ -1,12 +1,17 @@
 {
   "name": "conlog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Javascript console.log re-invented. Taking the console.log to a new printing model without any code edit.",
+  "main": "src/conlog.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
-  "author": "",
+  "author": "Nir Gofman",
+  "repository":{
+	  "type": "git",
+	  "url": "git+https://github.com/gofmannir/conlog.git"
+  },
+  "homepage": "https://github.com/gofmannir/conlog#readme",
   "license": "ISC",
   "dependencies": {
     "cli-color": "^2.0.0"
