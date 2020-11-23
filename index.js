@@ -1,5 +1,5 @@
 
-require('./src/conlog').init()
+require('./src/autocon').init()
 
 console.log("Starting with Node.js script..")
 

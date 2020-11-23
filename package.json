@@ -1,17 +1,17 @@
 {
-  "name": "conlog",
+  "name": "autocon",
   "version": "1.0.0",
   "description": "Javascript console.log re-invented. Taking the console.log to a new printing model without any code edit.",
-  "main": "src/conlog.js",
+  "main": "src/autocon.js",
   "scripts": {
     "test": ""
   },
   "author": "Nir Gofman",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gofmannir/conlog.git"
+    "url": "git+https://github.com/gofmannir/autocon.git"
   },
-  "homepage": "https://github.com/gofmannir/conlog#readme",
+  "homepage": "https://github.com/gofmannir/autocon#readme",
   "license": "ISC",
   "dependencies": {
     "cli-color": "^2.0.0"

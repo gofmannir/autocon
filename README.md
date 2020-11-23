@@ -1,9 +1,9 @@
 
 <p align="center">
-  <img width="420"src="https://i.ibb.co/7S37fqL/conlog.png">
+  <img width="420"src="https://i.ibb.co/8g8Pr73/autocon.png">
 </p>
 
-# conlog.js - Re-inventing the `console.log`.
+# autocon.js - Re-inventing the `console.log`.
 This simple module with 
 
 # Why ?
@@ -13,15 +13,15 @@ I love using `console.log` when I'm writing code. I love to test with it, debug 
 This module with log your logs with a smarter way with **No Code Change!** 
 
 ## How?
-This modules changes the `console.log` core functionality - that's why you should NOT write any changes to your code to use it.
-Each time you send `console.log`, it detects the words and objects and searches for keys like 'error', 'test', 'success' and so on, and matching the correct color.
+This modules changes the `console.log` core functionality - that's why you will NOT write any changes to your code to use it.
+Each time you send `console.log`, it **detects** the words and objects and searches for keys like 'error', 'test', 'success' and so on, and matching the correct color.
 
 More details in Usage section.
 
 # Installation
 
 ```
-npm install conlog
+npm install autocon
 ```
 
 CDN library not available yet.
@@ -30,13 +30,13 @@ CDN library not available yet.
 
 Add this to the start of your program:
 ```javascript
-require('conlog').init()
+require('autocon').init()
 ```
 And that's it! Simple.
 
 If you would like to disable the word detection you can set:
 ```javascript
-require('conlog').init({enableIntelligence:false})
+require('autocon').init({enableIntelligence:false})
 ```
 By configuring this, the logs will print only the date & time.
 
@@ -48,7 +48,7 @@ testStrings: ['test', 'check'],
 ```
 you can add/edit your own keys by overwriting the existing setting:
 ```javascript
-require('conlog').init({passedStrings:['my-own-string', 'my-second-string']})
+require('autocon').init({passedStrings:['my-own-string', 'my-second-string']})
 ```
 
 Each log that contains the string (even part of it) it will match the correct color, For example:
@@ -65,7 +65,7 @@ console.log('multiple errors has occurred')
 Example node.js program that demonstrate logs usage:
 
 ```javascript
-require('./src/conlog').init()
+require('autocon').init()
 
 console.log("Starting with Node.js script..")
 
@@ -102,13 +102,13 @@ setTimeout(() => {
 ### Before - Simple logs
 
 <p align="center">
-  <img width="420"src="https://i.ibb.co/vmbc6n4/beforef.png">
+  <img width="720"src="https://i.ibb.co/vmbc6n4/beforef.png">
 </p>
 
 ### After
 
 <p align="center">
-  <img width="420"src="https://i.ibb.co/6Y6QGPf/afterf.png">
+  <img width="720"src="https://i.ibb.co/rtS4WF4/afterff.png">
 </p>
 
 
