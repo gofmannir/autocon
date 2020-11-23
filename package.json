@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/gofmannir/autocon.git"
   },
+  "keywords":["console.log", "smart console", "color"],
   "homepage": "https://github.com/gofmannir/autocon#readme",
   "license": "ISC",
   "dependencies": {
