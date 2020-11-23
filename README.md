@@ -99,13 +99,13 @@ setTimeout(() => {
 
 ```
 
-### Before - Simple logs
+### Before - Simple logs:
 
 <p align="center">
   <img width="900"src="https://i.ibb.co/vmbc6n4/beforef.png">
 </p>
 
-### After
+### After:
 
 <p align="center">
   <img width="950"src="https://i.ibb.co/rtS4WF4/afterff.png">
