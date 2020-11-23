@@ -102,13 +102,16 @@ setTimeout(() => {
 ### Before - Simple logs
 
 <p align="center">
-  <img width="720"src="https://i.ibb.co/vmbc6n4/beforef.png">
+  <img width="900"src="https://i.ibb.co/vmbc6n4/beforef.png">
 </p>
 
 ### After
 
 <p align="center">
-  <img width="720"src="https://i.ibb.co/rtS4WF4/afterff.png">
+  <img width="950"src="https://i.ibb.co/rtS4WF4/afterff.png">
 </p>
+
+If you already have a node.js program, to combine this module you dont need to change your `console.log` code lines.
+
 
 
