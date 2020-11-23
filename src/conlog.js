@@ -88,7 +88,7 @@ const init = function(...props) {
         );
     };
 
-	console.log("Successfuly Initialized!")
+	console.log("Successfuly Initialized conlog.js!")
 }
 
 

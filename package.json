@@ -7,9 +7,9 @@
     "test": ""
   },
   "author": "Nir Gofman",
-  "repository":{
-	  "type": "git",
-	  "url": "git+https://github.com/gofmannir/conlog.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gofmannir/conlog.git"
   },
   "homepage": "https://github.com/gofmannir/conlog#readme",
   "license": "ISC",
