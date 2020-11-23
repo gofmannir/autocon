@@ -14,6 +14,29 @@ This module with log your logs with a smarter way with **No Code Change!**
 
 ## How?
 This modules changes the `console.log` core functionality - that's why you should NOT write any changes to your code to use it.
+Each time you send `console.log`, it detects the words and objects and searches for keys like 'error', 'test', 'success' and so on, and matching the correct color.
+
+Maped strings for now:
+```javascript
+errorStrings: ['err', 'problem', 'fail'],
+passedStrings: ['passed', 'complete', 'success'],
+testStrings: ['test', 'check'],
+```
+you can add/edit your own keys by overwriting the existing setting:
+```javascript
+require('conlog').init({passedStrings:['my-own-string', 'my-second-string']})
+```
+
+Each log that contains the string (even part of it) it will match the correct color, For example:
+If the `errorStrings` is ['err']
+The next logs will be printed in red color:
+```javascript
+console.log('err in line 3')
+console.log('error in line 5')
+console.log('multiple errors has occurred')
+```
+
+
 
 # Installation
 
